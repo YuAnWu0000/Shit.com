@@ -5,6 +5,7 @@
 2018/03/30 Create partials in view to implement oop <br>
 2018/03/30 Server now can handle POST requests and render it on the website (searchContent)<br>
 2018/04/02 Include "scrollreveal.min.js" and "shit.js" in "footer.ejs" to implement the animation of social icon <br>
+2018/04/02 Add founder profile in footer and justify the layout <br> 
 
 ## Issues <br />
 
