@@ -2,6 +2,26 @@
 
 <% include partials/navbar %>
 
+<div class="jumbotron">
+  <div class="container-fluid text-center">
+    <div class="row">
+
+      <div class="col-sm-4">
+        <h3>Author profile</h3>
+      </div>
+
+      <div class="col-sm-4">
+        <h3>楊筱絜</h3>
+        <p>考上社會眼紅的台大電機，再說不想當工程師。</p>
+        <p>做個毫無相關的職業，並把會的程式語言，用來與他人溝通這堆狗屎的現實。</p>
+      </div>
+      <div class="col-sm-4"> 
+        <img src="images/founder_profile.jpg" class="img-fluid rounded-circle">
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Bootstrap carousel -->
 <div id="carouselExampleIndicators" class="carousel slide  mycarousel" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -31,14 +51,20 @@
 </div>
 <!-- carousel ends -->
 
-<div>
-	<div style="display: inline-block;">
-		<h3>楊筱絜</h3>
-		<p>考上社會眼紅的台大電機，再說不想當工程師。</p>
-		<p>做個毫無相關的職業，並把會的程式語言，用來與他人溝通這堆狗屎的現實。</p>
-	</div>
-	<img src="images/founder_profile.jpg">
-</div>
+<div class="container-fluid text-center">    
+  <h3>My profile</h3><br>
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>楊筱絜</h3>
+      <p>考上社會眼紅的台大電機，再說不想當工程師。</p>
+      <p>做個毫無相關的職業，並把會的程式語言，用來與他人溝通這堆狗屎的現實。</p>
+    </div>
+    <div class="col-sm-6"> 
+      <img src="images/founder_profile.jpg" class="img-fluid rounded-circle">
+    </div>
+  </div>
+</div><br>
+
 
 <div>
 	<% search.forEach(function(searchi){ %>
