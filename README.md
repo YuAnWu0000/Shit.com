@@ -1,9 +1,9 @@
 # SHIT.COM
 
 ## Progress <br />
-2018/03/29 First commit, express基本架構, shit.com首頁套板完成<br>
+2018/03/29 First commit, express basics, shit.com home page<br>
 2018/03/30 Create partials in view to implement oop <br>
-2018/03/30 Server can handle POST requests and render it on the website (searchContent)<br>
+2018/03/30 Server now can handle POST requests and render it on the website (searchContent)<br>
 2018/04/02 Include "scrollreveal.min.js" and "shit.js" in "footer.ejs" to implement the animation of social icon <br>
 
 ## Issues <br />
